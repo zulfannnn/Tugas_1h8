@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/komentar_text"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:background="@drawable/from"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium" />
+    <Button
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Send"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="191dp" />
+</LinearLayout>
